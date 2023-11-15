@@ -5,20 +5,25 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <h1>Weather App</h1>
-      <footer>
-        This project was created by{" "}
-        <a href="https://gilded-starburst-7bef05.netlify.app/" target="_blank">
-          Sonique Middleton
-        </a>{" "}
-        and is{" "}
-        <a
-          href="https://github.com/soniqmidd/react-weather-app"
-          target="_blank"
-        >
-          open sourced on Github
-        </a>
-      </footer>
+      <div className="container">
+        <h1>Weather App</h1>
+        <footer>
+          This project was created by{" "}
+          <a
+            href="https://gilded-starburst-7bef05.netlify.app/"
+            target="_blank"
+          >
+            Sonique Middleton
+          </a>{" "}
+          and is{" "}
+          <a
+            href="https://github.com/soniqmidd/react-weather-app"
+            target="_blank"
+          >
+            open sourced on Github
+          </a>
+        </footer>
+      </div>
     </div>
   );
 }

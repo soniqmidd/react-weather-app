@@ -12,6 +12,7 @@ function App() {
           <a
             href="https://gilded-starburst-7bef05.netlify.app/"
             target="_blank"
+            rel="noreferrer"
           >
             Sonique Middleton
           </a>{" "}
@@ -19,6 +20,7 @@ function App() {
           <a
             href="https://github.com/soniqmidd/react-weather-app"
             target="_blank"
+            rel="noreferrer"
           >
             open sourced on Github
           </a>
